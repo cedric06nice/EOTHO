@@ -1,0 +1,41 @@
+# Uncomment the lines below you want to change by removing the # in the beginning
+
+# A list of devices you want to take the screenshots from
+devices([
+	"iPhone 8",
+        "iPhone 8 Plus",
+        "iPhone 11",
+        "iPhone 11 Pro",
+        "iPhone 11 Pro Max",
+        "iPad Pro (9.7-inch)",
+        "iPad (7th generation)",
+        "iPad Pro (11-inch) (2nd generation)",
+        "iPad Pro (12.9-inch) (4th generation)"
+])
+
+languages([
+	["en", "en-GB"]
+])
+
+# The name of the scheme which contains the UI Tests
+# scheme("SchemeName")
+
+# Where should the resulting screenshots be stored?
+output_directory("./screenshots")
+output_simulator_logs(true)
+
+# remove the '#' to clear all previously generated screenshots before creating new ones
+clear_previous_screenshots(true)
+reinstall_app(true)
+app_identifier("com.cedric06nice.EOTHO")
+headless(true)
+#capture_screenshots(skip_open_summary: true)
+
+# Remove the '#' to set the status bar to 9:41 AM, and show full battery and reception.
+override_status_bar(true)
+
+# Arguments to pass to the app on launch. See https://docs.fastlane.tools/actions/snapshot/#launch-arguments
+launch_arguments(["SKIP_ANIMATIONS"])
+
+# For more information about all available options run
+# fastlane action snapshot

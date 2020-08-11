@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82A49CD124E092F70079C21B /* EatOutToHelpOutScreeshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A49CD024E092F70079C21B /* EatOutToHelpOutScreeshots.swift */; };
+		82A49CD924E093690079C21B /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A49CD824E093690079C21B /* SnapshotHelper.swift */; };
 		82C30F0324D7F58C00E2A533 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C30F0224D7F58C00E2A533 /* AppDelegate.swift */; };
 		82C30F0524D7F58C00E2A533 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C30F0424D7F58C00E2A533 /* SceneDelegate.swift */; };
 		82C30F0724D7F58C00E2A533 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C30F0624D7F58C00E2A533 /* ViewController.swift */; };
@@ -17,7 +19,21 @@
 		82C30F1A24D9AEFD00E2A533 /* Keyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C30F1924D9AEFD00E2A533 /* Keyboard.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		82A49CD324E092F70079C21B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C30EF724D7F58C00E2A533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C30EFE24D7F58C00E2A533;
+			remoteInfo = EOTHO;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		82A49CCE24E092F70079C21B /* EatOutToHelpOutScreeshots.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatOutToHelpOutScreeshots.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A49CD024E092F70079C21B /* EatOutToHelpOutScreeshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatOutToHelpOutScreeshots.swift; sourceTree = "<group>"; };
+		82A49CD224E092F70079C21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A49CD824E093690079C21B /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		82C30EFF24D7F58C00E2A533 /* EatOutToHelpOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatOutToHelpOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C30F0224D7F58C00E2A533 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82C30F0424D7F58C00E2A533 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +47,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		82A49CCB24E092F70079C21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82C30EFC24D7F58C00E2A533 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,10 +64,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82A49CCF24E092F70079C21B /* EatOutToHelpOutScreeshots */ = {
+			isa = PBXGroup;
+			children = (
+				82A49CD024E092F70079C21B /* EatOutToHelpOutScreeshots.swift */,
+				82A49CD824E093690079C21B /* SnapshotHelper.swift */,
+				82A49CD224E092F70079C21B /* Info.plist */,
+			);
+			path = EatOutToHelpOutScreeshots;
+			sourceTree = "<group>";
+		};
 		82C30EF624D7F58C00E2A533 = {
 			isa = PBXGroup;
 			children = (
 				82C30F0124D7F58C00E2A533 /* EOTHO */,
+				82A49CCF24E092F70079C21B /* EatOutToHelpOutScreeshots */,
 				82C30F0024D7F58C00E2A533 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				82C30EFF24D7F58C00E2A533 /* EatOutToHelpOut.app */,
+				82A49CCE24E092F70079C21B /* EatOutToHelpOutScreeshots.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,6 +119,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		82A49CCD24E092F70079C21B /* EatOutToHelpOutScreeshots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A49CD524E092F70079C21B /* Build configuration list for PBXNativeTarget "EatOutToHelpOutScreeshots" */;
+			buildPhases = (
+				82A49CCA24E092F70079C21B /* Sources */,
+				82A49CCB24E092F70079C21B /* Frameworks */,
+				82A49CCC24E092F70079C21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82A49CD424E092F70079C21B /* PBXTargetDependency */,
+			);
+			name = EatOutToHelpOutScreeshots;
+			productName = EatOutToHelpOutScreeshots;
+			productReference = 82A49CCE24E092F70079C21B /* EatOutToHelpOutScreeshots.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		82C30EFE24D7F58C00E2A533 /* EOTHO */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82C30F1324D7F59000E2A533 /* Build configuration list for PBXNativeTarget "EOTHO" */;
@@ -111,6 +164,10 @@
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = cedric06nice;
 				TargetAttributes = {
+					82A49CCD24E092F70079C21B = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 82C30EFE24D7F58C00E2A533;
+					};
 					82C30EFE24D7F58C00E2A533 = {
 						CreatedOnToolsVersion = 11.6;
 					};
@@ -130,11 +187,19 @@
 			projectRoot = "";
 			targets = (
 				82C30EFE24D7F58C00E2A533 /* EOTHO */,
+				82A49CCD24E092F70079C21B /* EatOutToHelpOutScreeshots */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		82A49CCC24E092F70079C21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82C30EFD24D7F58C00E2A533 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -149,6 +214,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		82A49CCA24E092F70079C21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A49CD124E092F70079C21B /* EatOutToHelpOutScreeshots.swift in Sources */,
+				82A49CD924E093690079C21B /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		82C30EFB24D7F58C00E2A533 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,6 +235,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82A49CD424E092F70079C21B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C30EFE24D7F58C00E2A533 /* EOTHO */;
+			targetProxy = 82A49CD324E092F70079C21B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		82C30F0824D7F58C00E2A533 /* Main.storyboard */ = {
@@ -182,6 +264,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		82A49CD624E092F70079C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9FPT3XW32;
+				INFOPLIST_FILE = EatOutToHelpOutScreeshots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedric06nice.EatOutToHelpOutScreeshots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EOTHO;
+			};
+			name = Debug;
+		};
+		82A49CD724E092F70079C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z9FPT3XW32;
+				INFOPLIST_FILE = EatOutToHelpOutScreeshots/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cedric06nice.EatOutToHelpOutScreeshots;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EOTHO;
+			};
+			name = Release;
+		};
 		82C30F1124D7F59000E2A533 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -337,6 +459,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		82A49CD524E092F70079C21B /* Build configuration list for PBXNativeTarget "EatOutToHelpOutScreeshots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A49CD624E092F70079C21B /* Debug */,
+				82A49CD724E092F70079C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		82C30EFA24D7F58C00E2A533 /* Build configuration list for PBXProject "EOTHO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
