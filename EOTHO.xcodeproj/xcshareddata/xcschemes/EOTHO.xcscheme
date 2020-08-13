@@ -46,16 +46,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82A49CB324E088B90079C21B"
-               BuildableName = "Screenshots.xctest"
-               BlueprintName = "Screenshots"
-               ReferencedContainer = "container:EOTHO.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "82A49CCD24E092F70079C21B"
                BuildableName = "EatOutToHelpOutScreeshots.xctest"
                BlueprintName = "EatOutToHelpOutScreeshots"

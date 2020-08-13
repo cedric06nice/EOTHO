@@ -17,6 +17,7 @@ class EatOutToHelpOutScreeshots: XCTestCase {
         continueAfterFailure = false
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        
     }
 
     override func tearDownWithError() throws {
@@ -58,16 +59,14 @@ class EatOutToHelpOutScreeshots: XCTestCase {
         app.staticTexts["Calculate"].tap()
         
         snapshot("3-Screen-with-percentage")
+        
     }
     
     func testExampleDarkMode() throws {
         // UI tests must launch the application that they test.
+        
         let app = XCUIApplication()
-        var launchArguments: [AnyHashable] = []
-        launchArguments.append("-AppleInterfaceStyle")
-        launchArguments.append("Dark")
-        app.launchArguments = launchArguments as! [String]
-        setupSnapshot(app, waitForAnimations: false)
+        app.launchArguments.append("UITestingDarkModeEnabled")
         app.launch()
         
         if ProcessInfo().arguments.contains("SKIP_ANIMATIONS") {
@@ -80,9 +79,12 @@ class EatOutToHelpOutScreeshots: XCTestCase {
         app.buttons["."].tap()
         app.buttons["4"].tap()
         app.buttons["0"].tap()
+        
+        snapshot("4-Dark-Mode-Calculator")
+        
         app.staticTexts["="].tap()
         
-        snapshot("4-Dark-Mode")
+        snapshot("5-Dark-Mode-with-Result")
     }
     
     /*
