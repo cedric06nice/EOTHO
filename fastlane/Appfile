@@ -1,5 +1,5 @@
 app_identifier("com.cedric06nice.EOTHO") # The bundle identifier of your app
-apple_id("cedric06nice@mac.com") # Your Apple email address
+apple_id(ENV["FASTLANE_USER"]) # Your Apple email address
 
 itc_team_id("231082") # App Store Connect Team ID
 team_id("Z9FPT3XW32") # Developer Portal Team ID

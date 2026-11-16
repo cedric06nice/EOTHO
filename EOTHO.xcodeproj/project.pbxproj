@@ -30,7 +30,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		82A1F45224E5BD650060B5E6 /* EOTHO copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EOTHO copy-Info.plist"; path = "/Users/cedric/Library/Mobile Documents/com~apple~CloudDocs/Xcode/EOTHO/EOTHO copy-Info.plist"; sourceTree = "<absolute>"; };
 		82A49CCE24E092F70079C21B /* EatOutToHelpOutScreeshots.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EatOutToHelpOutScreeshots.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A49CD024E092F70079C21B /* EatOutToHelpOutScreeshots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatOutToHelpOutScreeshots.swift; sourceTree = "<group>"; };
 		82A49CD224E092F70079C21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,7 +80,6 @@
 				82C30F0124D7F58C00E2A533 /* EOTHO */,
 				82A49CCF24E092F70079C21B /* EatOutToHelpOutScreeshots */,
 				82C30F0024D7F58C00E2A533 /* Products */,
-				82A1F45224E5BD650060B5E6 /* EOTHO copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
